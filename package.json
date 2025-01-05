@@ -1,7 +1,7 @@
 {
 	"name": "vue3-facebook-pixel",
 	"private": false,
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Tiny Facebook Pixel API wrapper for Vue 3",
 	"type": "module",
 	"main": "dist/index.js",
