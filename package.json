@@ -1,41 +1,39 @@
 {
-  "name": "vue3-facebook-pixel",
-  "private": false,
-  "version": "1.0.3",
-  "description": "Tiny Facebook Pixel API wrapper for Vue 3",
-  "type": "module",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "files": [
-    "dist/*"
-  ],
-  "keywords": [
-    "facebook",
-    "facebook pixel",
-    "fbq",
-    "plugin",
-    "vue3",
-    "vue",
-    "vuejs"
-  ],
-  "license": "MIT",
-  "repository": {
-    "url": "https://github.com/ap-arto/vue3-facebook-pixel.git",
-    "type": "git"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.4",
-    "typescript": "^5.2.2",
-    "vite": "^5.2.0",
-    "vite-plugin-dts": "^3.9.1",
-    "vue": "^3.4.21",
-    "vue-tsc": "^2.0.6"
-  },
-  "peerDependencies": {
-    "vue": "~3.0"
-  }
+	"name": "vue3-facebook-pixel",
+	"private": false,
+	"version": "1.0.3",
+	"description": "Tiny Facebook Pixel API wrapper for Vue 3",
+	"type": "module",
+	"main": "dist/index.js",
+	"module": "dist/index.js",
+	"files": ["dist/*"],
+	"keywords": [
+		"facebook",
+		"facebook pixel",
+		"fbq",
+		"plugin",
+		"vue3",
+		"vue",
+		"vuejs"
+	],
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/ap-arto/vue3-facebook-pixel.git",
+		"type": "git"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^5.0.4",
+		"typescript": "^5.2.2",
+		"vite": "^5.2.0",
+		"vite-plugin-dts": "^3.9.1",
+		"vue": "^3.4.21",
+		"vue-tsc": "^2.0.6"
+	},
+	"peerDependencies": {
+		"vue": "3.x"
+	}
 }
